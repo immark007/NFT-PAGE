@@ -1,0 +1,9 @@
+/*Estilos padrões*/
+@import url('base/global.css');
+@import url('base/reset.css');
+
+/*Components*/
+@import url('components/header.css');
+@import url('components/hero.css');
+@import url('components/info.css');
+@import url('components/features.css');
