@@ -18,6 +18,11 @@
     margin-inline: auto;
 }
 
+.features__title{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .features__cards{
     display: flex;
     flex-wrap: wrap;
@@ -40,6 +45,7 @@
     position: absolute;
     top: -3rem;
     left: 2rem;
+    animation: float 3s ease-in-out infinite;
 }
 
 .feature__card-title{
@@ -50,4 +56,16 @@
 .feature__Card-description{
     color: rgba(255,255,255,0.6);
     font-weight: 300;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }

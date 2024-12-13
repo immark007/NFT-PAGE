@@ -1,5 +1,5 @@
 .bg{
-    background: linear-gradient(150deg, rgba(172, 76, 246,0.3), var(--backgroun-color));
+    background: linear-gradient(150deg, rgba(59, 4, 102, 0.3), var(--backgroun-color));
 }
 
 .hero{
@@ -23,8 +23,18 @@
     font-weight: 600;
 }
 
+.hero__img-bottom{
+    display: flex;
+    gap: 1.3rem;
+}
+
+.hero__bottom{
+    max-width: 100px;
+    margin-top: 3rem;
+}
+
 .hero__title{
-    font-size: 3rem;
+    font-size: 3.8rem;
     line-height: 1.1;
     font-weight: 500;
     letter-spacing: -0.05em;
@@ -78,5 +88,9 @@
     }
     .hero__title{
         font-size: 2.5rem;
+    }
+
+    .hero__bottom{
+        margin-top: 1rem;
     }
 }
