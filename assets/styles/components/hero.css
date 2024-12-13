@@ -63,6 +63,7 @@
 .hero__img{
     transform: rotate(15deg);
     max-width: 550px;
+    animation: float 3s ease-in-out infinite;
 }
 
 @media (width < 1024px){
